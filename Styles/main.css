@@ -1,16 +1,35 @@
 body {
   background-color: rgba(240, 187, 137, 0.792);
 }
+
 h1 {
   color: rgb(85, 130, 168);
   text-align: center;
-  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
-p {
+h2 {
+  text-align: left;
+}
+h3 {
+  padding
+}
+.centre-text {
   text-align: center;
 }
+p {
+  text-align: center;
 
+}
+.text-box {
+  border:20,black ;
+  padding:20x;
+  margin:20px ;
+  background-color: white;
+  width:fit-content;
+  box-sizing: border-box;
+
+}
 .bungee-shade-regular {
   font-family: 'Bungee Shade', sans-serif;
   font-weight: 400;
