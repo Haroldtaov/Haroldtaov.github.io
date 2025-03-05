@@ -21,13 +21,17 @@ p {
   text-align: center;
 
 }
-.text-box {
-  border:20,black ;
-  padding:20x;
-  margin:20px ;
-  background-color: white;
-  width:fit-content;
-  box-sizing: border-box;
+.info-box {
+  width:60% ;
+  max-width: 800px;
+  background-color:white ;
+  border:4px, black ;
+  padding:20px ;
+  margin:20px auto;
+  border-radius:10px ;
+  box-shadow:10px, black;
+  
+
 
 }
 .bungee-shade-regular {
