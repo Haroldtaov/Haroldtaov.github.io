@@ -2,10 +2,16 @@ body {
   background-color: rgba(240, 187, 137, 0.792);
 }
 
-h1 {
+.header-title{
+   position: absolute; /*Allows Manuel Position*/
+   top:20px ;/* moves it down from the top*/
+   left:20px; /* Moves it right from the left*/
+   Margin:0; /* removes the extra space*/
+} 
+
+.main-page h1 {
   color: rgb(85, 130, 168);
-  text-align: center;
-  margin-top: 100px;
+  
 }
 
 h2 {
@@ -14,8 +20,11 @@ h2 {
 h3 {
   padding
 }
-.centre-text {
+.centre-text ul {
   text-align: center;
+  list-style-type: none;/* removes bullet points */
+  padding:0;/* removes extra padding*/
+  margin:0;/* ensures no extra spacing*/
 }
 p {
   text-align: center;
@@ -31,11 +40,33 @@ p {
   border-radius:10px ;
   box-shadow:10px, black;
   
-
-
 }
 .bungee-shade-regular {
   font-family: 'Bungee Shade', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
+.top-right-nav ul{
+  position:absolute; /* Allows for the position to be moved manuelly*/
+  top: 85px;
+  right:20px;
+  display:flex; /* Alligns links Horzontally*/
+  gap: 15px; /*adds spacing between links*/
+  list-style: none; /* Removes bullet points */
+  padding:0;
+  Margin:0;
+}
+.top-right-nav li{
+  display:inline; /* makes sure the list items are inline*/
+}
+
+.Heading{
+  position: relative;
+  text-align: center;
+  top: 25px;
+  }
+  .Title-size {
+    font-size: large;
+  }
+  
