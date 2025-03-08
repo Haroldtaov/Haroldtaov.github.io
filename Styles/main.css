@@ -20,11 +20,21 @@ h2 {
 h3 {
   padding
 }
-.centre-text ul {
+.centre-text{
   text-align: center;
   list-style-type: none;/* removes bullet points */
   padding:0;/* removes extra padding*/
   margin:0;/* ensures no extra spacing*/
+}
+ul {
+  text-align: center;
+  list-style-type: none;/* removes bullet points */
+  padding:0;/* removes extra padding*/
+  margin:0;/* ensures no extra spacing*/
+
+}
+h4{
+  text-align: center;
 }
 p {
   text-align: center;
@@ -68,5 +78,8 @@ p {
   }
   .Title-size {
     font-size: large;
+  }
+  .left-text{
+    text-align: left;
   }
   
